@@ -31,6 +31,8 @@ jobs:
        cmd: install
     - name: installing surge
       run: npm install -g surge
+    - name: Build React app
+      run: yarn build
     - name: deploying on surge
       run: surge ./build iterian.surge.sh --token ${{secrets.Surge_Token}}  
    
