@@ -32,5 +32,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying on surge
-      run: surge ./build http://iterian.surge.sh/ --token ${{secrets.Surge_Token}}  
+      run: surge ./build iterian.surge.sh --token ${{secrets.Surge_Token}}  
    
