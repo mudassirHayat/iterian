@@ -10,6 +10,7 @@ function App() {
      whats going on
      this is my project
      <p>hello</p>
+     this is me
     </div>
   );
 }
